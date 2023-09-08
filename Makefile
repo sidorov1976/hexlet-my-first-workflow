@@ -1,3 +1,3 @@
 # Makefile
-say-hello: #
+say_hello: #
 	echo "Hello, world!"
