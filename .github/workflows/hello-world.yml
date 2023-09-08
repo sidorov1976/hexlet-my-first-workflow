@@ -7,6 +7,6 @@ jobs:
   # их может быть больше одного
   say-hello:
     # операционная система для работы воркфлоу
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps: # список шагов, которые надо выполнить
       - run: make say-hello
